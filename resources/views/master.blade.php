@@ -16,14 +16,17 @@
 </head>
 <body>
 
-<header id="header" class="">
+<header id="header">
 	
 </header>
 
 <main>
 	<section class='container'>
-		
-		@yield('mainContent')
+		<div class="row">
+			<div class="col-md-6">
+				@yield('mainContent')
+			</div>
+		</div>
 
 	</section>
 </main>

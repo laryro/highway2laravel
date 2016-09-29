@@ -39,7 +39,7 @@ Route::group(['prefix' => 'user', 'as' => 'user.'], function () {
     Route::get('/create', 'UserController@create')->name('create');
 
     //post
-    Route::post('/add', 'UserController@add')->name('add');
+    Route::post('/post', 'UserController@post')->name('post');
 
 });
  
